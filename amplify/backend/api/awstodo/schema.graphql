@@ -1,0 +1,11 @@
+type Todo @model {
+  id: ID
+  title: String
+  todo: String
+}
+
+type User @model {
+  id: ID
+  userName: String
+  email: String
+}
